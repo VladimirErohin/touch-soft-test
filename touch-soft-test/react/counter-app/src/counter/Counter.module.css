@@ -1,0 +1,51 @@
+.counter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 150px;
+    margin: 20px;
+    border: 1px solid #5faef8;
+    border-radius: 4px;
+    padding: 20px;
+    width: 14%;
+}
+.counter__value{
+    font-size: 20px;
+    border: 1px solid #5faef8;
+    border-radius: 2px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.message__uneven{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: deepskyblue;
+    padding: 6px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    width: 197px;
+    height: 36px;
+    text-align: center;
+}
+.message__even{
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    background-color: #13d550;
+    padding: 6px;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    width: 197px;
+    text-align: center;
+    height: 36px;
+}
+
+.button__counter{
+    width: 43px;
+    margin-left: 6px;
+}
